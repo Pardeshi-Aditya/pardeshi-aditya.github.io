@@ -302,11 +302,10 @@ header {
 
 .my-services {
     background-color: var(--clr-dark);
-    background-image: url(../img/services-bg.jpg);
-    background-size: cover;
-    /* background-blend-mode: multiply; */
     color: var(--clr-light);
     text-align: center;
+    justify-content: center;
+    display: flex;
 }
 
 .section__title--services {
@@ -396,7 +395,10 @@ header {
 .my-work {
     background-color: var(--clr-dark);
     color: var(--clr-light);
-    text-align: center;    
+    text-align: left;
+    margin-inline: auto;
+    padding-inline: 25vw;
+
 }
 
 .portfolio {
@@ -470,4 +472,30 @@ header {
 
 .social-list__link {
     padding: .5em;
+}
+
+.link{
+    color: #fff;
+}
+
+.social-list__link:hover > .fa-discord,
+.social-list__link:hover > .fa-github ,
+.social-list__link:hover > .fa-instagram, 
+.social-list__link:hover > .fa-twitter,
+.social-list__link:hover > .fa-linkedin,
+.social-list__link:hover > .fa-link 
+{
+    animation: bounce 0.8s; /* Define your bounce animation */
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-20px);
+    }
+    60% {
+        transform: translateY(-10px);
+    }
 }
