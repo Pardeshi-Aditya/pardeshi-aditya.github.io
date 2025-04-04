@@ -17,14 +17,14 @@ const Navigation: React.FC = () => {
 
   return (
     <nav className="fixed w-full z-50 bg-dark-light/70 backdrop-blur-md">
-      <div className="container mx-auto flex justify-between items-center p-4">
-        <motion.div 
+      <div className="container mx-auto flex justify-center items-center p-4">
+        {/* <motion.div 
           initial={{ opacity: 0, x: -50 }}
           animate={{ opacity: 1, x: 0 }}
           className="text-2xl font-secondary text-white"
         >
           Aditya Pardeshi
-        </motion.div>
+        </motion.div> */}
 
         {/* Mobile Menu Toggle */}
         <button 

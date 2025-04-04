@@ -1,6 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-import me2Image from '@/assets/me2.png'
+import me2Image from '@/assets/mascots/my_mascot.png'
 import { 
   Target, 
   Lightbulb, 

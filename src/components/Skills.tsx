@@ -2,10 +2,7 @@ import React from 'react'
 import { motion } from 'framer-motion'
 import { 
   Code, 
-  Server, 
   Layers, 
-  Cpu, 
-  Database, 
   Settings 
 } from 'lucide-react'
 

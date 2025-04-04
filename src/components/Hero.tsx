@@ -1,6 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-import meImage from '@/assets/me.png'
+import meImage from '@/assets/mascots/smiling_mascot.png'
 
 const Hero: React.FC = () => {
   return (
