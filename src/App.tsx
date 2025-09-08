@@ -1,14 +1,6 @@
-import React, { useState } from 'react'
-import { AnimatePresence } from 'framer-motion'
-import Navigation from './components/Navigation'
-import Hero from './components/Hero'
-import Skills from './components/Skills'
-import About from './components/About'
-import Projects from './components/Projects'
-import Contact from './components/Contact'
-import Footer from './components/Footer'
-
-export type PageType = 'home' | 'skills' | 'about' | 'projects' | 'contact'
+import React from "react";
+import Navigation from "./components/Navigation";
+import Hero from "./components/Hero";
 
 const App: React.FC = () => {
   const [currentPage, setCurrentPage] = useState<PageType>('home')
@@ -31,16 +23,10 @@ const App: React.FC = () => {
   }
 
   return (
-    <div className="bg-dark min-h-screen font-inter">
-      <Navigation currentPage={currentPage} setCurrentPage={setCurrentPage} />
-      <main className="relative overflow-hidden">
-        <AnimatePresence mode="wait">
-          {renderPage()}
-        </AnimatePresence>
-      </main>
-      <Footer />
+    <div className="bg-dark min-h-screen">
+      <Hero />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
