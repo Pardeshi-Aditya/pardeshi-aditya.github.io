@@ -5,10 +5,7 @@ interface NavigationProps {
   setActiveSection: (section: string) => void;
 }
 
-const Navigation: React.FC<NavigationProps> = ({
-  activeSection,
-  setActiveSection,
-}) => {
+const Navigation: React.FC<NavigationProps> = () => {
   return (
     // Navigation
     <nav className="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-sm border-b border-gray-100">
