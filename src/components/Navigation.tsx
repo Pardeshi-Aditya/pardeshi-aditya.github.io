@@ -1,4 +1,5 @@
 import React from "react";
+import logo from '../assets/mascots/smiling_mascot.png'
 
 interface NavigationProps {
   activeSection: string;
@@ -13,8 +14,9 @@ const Navigation: React.FC<NavigationProps> = () => {
         <div className="flex items-center justify-between">
           <a
             href="#"
-            className="text-xl font-light tracking-wide hover:opacity-80 transition-opacity text-black"
+            className="flex gap-2 text-xl font-light tracking-wide hover:opacity-80 transition-opacity text-black"
           >
+            <img src={logo} alt="me" className="h-8 w-auto" />
             Aditya Pardeshi
           </a>
 
