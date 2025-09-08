@@ -1,24 +1,13 @@
-import React from 'react'
-import Navigation from './components/Navigation'
-import Hero from './components/Hero'
-import Skills from './components/Skills'
-import About from './components/About'
-import Projects from './components/Projects'
-import Footer from './components/Footer'
+import React from "react";
+import Navigation from "./components/Navigation";
+import Hero from "./components/Hero";
 
 const App: React.FC = () => {
   return (
     <div className="bg-dark min-h-screen">
-      <Navigation />
-      <main>
-        <Hero />
-        <Skills />
-        <About />
-        <Projects />
-        <Footer />
-      </main>
+      <Hero />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;

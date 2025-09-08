@@ -8,17 +8,17 @@ module.exports = {
     extend: {
       fontFamily: {
         'primary': ['Inter', 'sans-serif'],
-        'secondary': ['Clash Display', 'sans-serif'],
+        'secondary': ['Inter', 'sans-serif'],
         'code': ['JetBrains Mono', 'monospace']
       },
       colors: {
         'dark': {
-          DEFAULT: '#082032',
-          light: '#334756'
+          DEFAULT: '#fff',
+          light: '#374151'
         },
         'accent': {
-          DEFAULT: '#56baec',
-          dark: '#4fa5d3'
+          DEFAULT: '#1f2937',
+          dark: '#111827'
         }
       },
       animation: {
