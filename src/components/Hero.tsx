@@ -7,11 +7,9 @@ import {
   ChevronRight,
   MapPin,
 } from "lucide-react";
-import { useState } from "react";
 import Navigation from "./Navigation";
 
 const Hero = () => {
-  const [activeSection, setActiveSection] = useState<string>("about");
 
   const projects = [
     {
